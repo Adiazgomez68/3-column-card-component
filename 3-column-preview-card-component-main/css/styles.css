@@ -1,0 +1,44 @@
+@import url(./cards.css);
+@import url(./buttons.css);
+
+.box {
+  width: 66%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6%;
+}
+
+.box h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 40px;
+  color: hsl(0, 0%, 95%);
+  padding-top: 10px;
+}
+
+.box p {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  text-align: left;
+  line-height: 25px;
+  font-size: 14px;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding-top: 5px;
+}
+
+@media (max-width: 375px) {
+  .box {
+    width: 310px;
+    display: block;
+    margin-top: 0%;
+  }
+  .box h1 {
+    padding-top: 0px;
+  }
+  .box p {
+    padding-top: 0px;
+  }
+}
